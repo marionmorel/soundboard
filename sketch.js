@@ -68,9 +68,9 @@ function mousePressed() {
 
 function mouseReleased() {
   for (let i = 0; i < buttons_top.length; i++) {
-    buttons_top[i].y = height/3;
+    buttons_top[i].y = height/4;
     buttons_middle[i].y = height/2;
-    buttons_bottom[i].y = 2*height/3;
+    buttons_bottom[i].y = 2*height/2.6;
   }
 }
 
